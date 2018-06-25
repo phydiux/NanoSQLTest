@@ -10,3 +10,5 @@ Steps to reproduce:
     - Kill the app. Then, relaunch it on your Android device. It is called "NanoSQLTest2".
     - Subsequent runs on device die when trying to connect to the database. With your Android device connected to a computer, open up Chrome on the computer and go to "chrome://inspect" - choose *inspect* next to the running instance of this app.
     - There will be an error message, *Unhandled Promise rejection: Cannot read property 'push' of undefined* displayed in Chrome's debugging tools.
+
+![Chrome Debugging Error](https://github.com/phydiux/NanoSQLTest/raw/master/images/Chrome_Debugging_Failure.png)
